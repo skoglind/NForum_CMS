@@ -1,0 +1,22 @@
+CMS000 - CMS Hantering (Skapa publicistens ruta)
+
+CMS100 - Lätt Texthantering (Skapa texter)
+CMS110 - Medel Texthantering (Publicera egna texter, Radera egna publicerade texter)
+CMS111 - Avancerad Texthantering (Publicera alla texter, Radera alla texter)
+
+CMS200 - Lätt Användarhantering (banna, mindre redigering, kolla upp)
+CMS202 - Avancerad Användarhantering (radera, sätta behörigheter, redigera allt)
+
+CMS300 - Lätt forumhantering (Statistik, Anmälningar)
+CMS330 - Medel forumhantering (Mass-PM)
+CMS333 - Avancerad forumhantering (Kategorier, Mass-Mail, Papperskorgen)
+
+CMS400 - Lätt databashantering (Skapa databaspost, ändra egna icke låsta poster)
+CMS440 - Medel databashantering (Ändra allas poster även låsta, radera grupper)
+CMS444 - Avancerad databashantering (Radera poster)
+
+CMS500 - Statiskt material
+
+CMS600 - Mediehantering
+
+CMS700 - Annonshantering

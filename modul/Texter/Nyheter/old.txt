@@ -1,0 +1,37 @@
+' ## SKAPA TRÅD ##
+          If rsDB("nStatus") = 4 Then
+            nyhetsTradID = rsDB("nTradID")
+          
+            Set rsF = Server.CreateObject("ADODB.RecordSet")
+              SQL = "SELECT * FROM fsBB_Tradar WHERE tID = " & CLng(nyhetsTradID)
+              rsF.Open SQL, Con, 1, 3
+          
+                If rsF.EOF Then
+                  rsF.AddNew
+                    rsF("tLogg")                = Now &  " | [Nyhet] Skapad - Av nyhetssystemet"
+                    rsF("tForum")               = 13
+                    rsF("tDatum_Skapad")        = rsDB("nDatumPublicerad")
+                    rsF("tDatum_Uppdaterad")    = rsDB("nDatumPublicerad")
+                    rsF("tAnv_Skapad")          = rsDB("nSkapadAv")
+                    rsF("tAnv_Uppdaterad")      = cCMS_ID
+                    rsF("tInst_AutoLankar")     = True
+                    rsF("tInst_Smilies")        = False
+                    rsF("tStatus_Trad")         = True
+                End If
+                
+                If Not bDontChange Then rsF("tDatum_Skapad") = rsDB("nDatumPublicerad")
+                If Not bDontChange Then rsF("tDatum_Uppdaterad") = rsDB("nDatumPublicerad")
+                
+                rsF("tAmne")                = sTitel
+                rsF("tTextM")               = sTextM
+                rsF("tDatum_Andrad")        = Now
+                rsF("tAnv_Andrad")          = cCMS_ID
+                
+                rsF.Update
+                
+                If CLng(nyhetsTradID) = 0 Then rsDB("nTradID") = rsF("tID")
+              
+              rsF.Close
+            Set rsF = Nothing
+          End If
+        ' ################

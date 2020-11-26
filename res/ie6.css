@@ -1,0 +1,22 @@
+/*
+WEBBLÄSARE: IE6
+
+FULHACK FÖR ATT FÅ TILL DESIGNEN I EN EXTREMT FELTOLKANDE WEBBLÄSARE
+*/
+
+div.interlock {
+  margin:           0 0 12px 0;
+}
+
+div.square {
+  margin:           0 4px 12px 5px;
+}
+
+div.data {
+  background-color: #FFF;
+  padding:          10px 4px 0 4px;
+}
+
+div.rect .imgblock .fields .input textarea {
+  width:            296px;
+}

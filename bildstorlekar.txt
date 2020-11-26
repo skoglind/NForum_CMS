@@ -1,0 +1,11 @@
+BxH
+
+50x45    - 50  - Miniatyr
+80x80    - 50  - Miniatyr
+100x100  - 60  - Miniatyr
+150x150  - 80  - Miniatyr
+640x480  - 80  - Low-Res
+800x600  - 100 - Mid-Res
+1024x768 - 100 - Hi-Res
+1280x1024- 100 - X-Res
+-x-      - 100 - Original

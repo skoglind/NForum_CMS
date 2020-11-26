@@ -1,0 +1,121 @@
+body {
+  background-color: #FFF;
+  font:             10px Verdana, Arial, Sans-serif;
+  color:            #333;
+  padding:          0;
+  margin:           0;
+}
+
+form {
+  padding:          0;
+  margin:           0;
+}
+
+input {
+  font:             10px Verdana, Arial, Sans-serif;
+}
+
+p {
+  margin:           0;
+  padding:          0;
+}
+
+a {
+  text-decoration:  none;
+  color:            #A00;
+}
+
+a:hover {
+  color:            #00A;
+}
+
+.holder {
+  width:            100%; 
+  margin:           0;
+}
+
+.holder .label {
+  width:            100%;
+  border-bottom:    solid 1px #CCC;
+  background:       #5fd053 url('/design/picker.png') repeat-x;
+  height:           18px;
+  padding:          8px 0 8px 0;
+}
+
+.holder h1 {
+  padding:          0; 
+  margin:           0 8px 0 8px; 
+  font:             bold 16px Verdana;
+  color:            #e2aed8;
+}
+
+.holder .buttons {
+  float:            left; 
+  width:            100%;
+  padding:          0; 
+  overflow:         hidden;
+}
+
+.holder .buttons input {
+  width:            90px;
+  height:           25px;
+}
+
+.holder .move {
+  float:            left; 
+  width:            100%; 
+  text-align:       center;
+  border-bottom:    solid 1px #CCC; 
+  background-color: #DDD; 
+  margin-bottom:    4px;
+  overflow:         hidden;
+  font:             12px Verdana;
+  color:            #AAA;
+}
+
+.holder .box {
+  float:            left; 
+  border-bottom:    solid 1px #CCC;
+  width:            100%;
+  background-color: #DDD; 
+  padding:          0; 
+  overflow:         hidden;
+}
+
+.holder .inner {
+  float:            left;
+  margin:           5px;
+}
+
+.holder .box p {
+  text-align:       center;
+  margin:           25px auto 0 auto;
+  color:            #AAA;
+  font:             10px Verdana;
+  width:            300px;
+}
+
+.holder .box ul {
+  list-style:       none;
+  float:            left;
+  width:            268px;
+  padding:          0;
+  margin:           0;
+}
+
+.holder .box ul li {
+  float:            left;
+  padding:          5px;
+  width:            258px;
+}
+  
+.holder .box ul li input {
+  float:            left;
+  margin:           0;
+  padding:          0;
+}
+  
+.holder .box ul li .text {
+  float:            left;
+  padding:          1px 0 0 4px;
+}

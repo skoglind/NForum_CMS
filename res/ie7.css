@@ -1,0 +1,30 @@
+/*
+WEBBLÄSARE: IE7
+
+FULHACK FÖR ATT FÅ TILL DESIGNEN I EN FELTOLKANDE WEBBLÄSARE
+*/
+
+div.interlock {
+  margin:           0 0 12px 0;
+}
+
+div.datablock .list li input {
+  float:            left;
+  margin:           4px 5px 0 0;
+}
+
+div.rect .imgblock .fields .input textarea {
+  width:            295px;
+}
+
+div.datablock .in_row .chklist_outer .chklist .row .chk input {
+  margin: -4px 0 0 0;
+}
+
+div.datablock .in_row .input .browsebutton {
+  margin:           1px 0 0 0;
+}
+
+div.datablock .in_row textarea {
+  width:            558px;
+}

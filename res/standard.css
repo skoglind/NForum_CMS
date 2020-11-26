@@ -1,0 +1,1244 @@
+body {
+  background-color: #FFF;
+  font:             10px Verdana, Arial, Sans-serif;
+  color:            #333;
+  padding:          0;
+  margin:           0;
+}
+
+body.system {
+  background:       #cacaca url('/design/cmsbg.png') center repeat-y;
+}
+
+form {
+  padding:          0;
+  margin:           0;
+}
+
+input {
+  font:             10px Verdana, Arial, Sans-serif;
+}
+
+p {
+  margin:           0;
+  padding:          0;
+}
+
+input[type="text"] {
+  width:            150px;
+}
+
+input[type="password"] {
+  width:            150px;
+}
+
+#OUTER {
+  width:            980px;
+  margin:           0 auto 0 auto;
+}
+
+#INNER {
+  float:            left;
+  width:            980px;
+  min-height:       2000px;
+}
+
+#titlechecker {
+  position:         absolute;
+  top:              0px;
+  left:             0px;
+  width:            262px; 
+  display:          none;
+  overflow:         hidden;
+}
+
+#titlechecker .holder {
+  float:            left;
+  width:            252px;
+  border:           solid 1px #AAA;
+  padding:          4px;
+  font:             10px Arial;
+  background-color: #EEE;
+  overflow:         hidden;
+}
+
+#titlechecker .holder p {
+  float:            left;
+  padding:          0;
+  margin:           2px 0 2px 0;
+  font:             9px Arial;
+  color:            #888;
+}
+
+#titlechecker .holder ul {
+  float:            left;
+  list-style:       none;
+  padding:          0;
+  margin:           4px;
+}
+
+#titlechecker .holder ul li {
+  padding:          0;
+  margin:           0;
+  font:             11px Arial;
+}
+
+#titlechecker .holder ul li .region {
+  float:            right;
+  color:            #AAA;
+  font:             10px Arial;
+}
+
+#uploadbox {
+  position:         absolute;
+  top:              100px;
+  left:             200px;
+  width:            280px; 
+  display:          none;
+}
+
+#uploadbox .holder {
+  float:            left;
+  width:            280px;
+}
+
+#uploadbox .holder .empty {
+  float:            left;
+  width:            59px;
+  height:           58px;
+  border-top:       solid 1px #AAA;
+  border-left:      solid 1px #AAA;
+}
+
+#uploadbox .holder .data {
+  float:            left;
+  width:            206px;
+  height:           47px;
+  background-color: #FFF;
+  border-top:       solid 1px #AAA;
+  border-left:      solid 1px #AAA;
+  border-right:     solid 1px #AAA;
+  padding:          6px;
+  overflow:         hidden;
+}
+
+#uploadbox .holder .data input {
+  float:            right;
+  margin:           1px;
+}
+
+#uploadbox .holder .data input.btn {
+  width:            75px;
+  padding:          1px;
+  margin-top:       4px;
+}
+
+#uploadbox .holder .titel {
+  float:            left;
+  width:            274px;
+  background-color: #BBB;
+  color:            #FFF;
+  padding:          2px;
+  text-align:       left;
+  border:           solid 1px #AAA;
+}
+
+#informationbox {
+  display:          none;
+  background-image: url('/design/transparent.png');
+  position:         absolute;
+  top:              0;
+  left:             0;
+  width:            100%;
+  height:           100%;
+}
+
+#informationbox .bef_shadow {
+  float:            left;
+  margin:           80px 0 0 290px;
+  width:            400px;
+  border:           solid 1px #FFF;
+}
+
+#informationbox .bef_shadow .inner {
+  float:            left;
+  padding:          10px;
+  width:            378px;
+  background-color: #EEE;
+  border:           solid 1px #CCC;
+}
+
+#informationbox .bef_shadow .inner h2 {
+  margin:           0;
+  padding:          0;
+  font:             bold 16px Arial;
+  color:            #333;
+}
+
+#informationbox .bef_shadow .inner p {
+  margin:           6px 20px 6px 20px;
+  font:             12px Arial;
+  color:            #333;
+}
+
+#informationbox .bef_shadow .inner .buttons {
+  text-align:       center;
+  width:            378px;
+  margin-top:       12px;
+}
+
+#informationbox .bef_shadow .inner .buttons input {
+  font:             12px Arial;
+  color:            #333;
+  width:            80px;
+  height:           35px;
+  margin:           0 8px 0 8px;
+}
+
+div.box_type1 {
+  margin:           100px auto 0 auto;
+  width:            300px;
+}
+
+div.box_type2 {
+  margin:           0;
+  width:            980px;
+  overflow:         hidden;
+  margin:           0 0 250px 0;
+}
+
+div.box_type3 {
+  margin:           0 auto 0 auto;
+  width:            300px;
+}
+
+div.closeborder {
+  float:            left;
+  width:            978px;
+  margin-top:       5px;
+}
+
+div.topborder {
+  float:            left;
+  width:            978px;
+  background-color: #EEE;
+  border-bottom:    solid 2px #CCC;
+}
+
+div.topborder p {
+  font:             11px Verdana, Arial, Sans-serif;
+  color:            #333;
+  padding:          0;
+  margin:           10px;
+}
+
+div.topborder p.title {
+  font:             bold 21px Arial, Verdana, Sans-Serif;
+  color:            #666;
+}
+
+div.topborder input {
+  color:            #FFF;
+  height:           26px;
+  font:             bold 12px Arial;
+  background-color: #A00;
+}
+
+div.inner {
+  float:            left;
+  width:            100%;
+}
+
+div.menu {
+  float:            left;
+  width:            150px;
+}
+
+div.menu ul {
+  float:            left;
+  padding:          0;
+  width:            148px;
+  margin:           10px 5px 0 0;
+  list-style:       none;
+  border:           solid 1px #CCC;
+}
+
+div.menu ul li {
+  float:            left;
+  padding:          0;
+  width:            146px;
+}
+
+div.menu ul li.title {
+  background-color: #CCC;
+  border-top:       solid 1px #FFF;
+  border-left:      solid 1px #FFF;
+  border-right:     solid 1px #FFF;
+}
+
+div.menu ul li.title span {
+  display:          block;
+  color:            #666;
+  padding:          3px 3px 3px 3px;
+  font:             10px Arial, Sans-serif;
+}
+
+div.menu ul ul {
+  float:            left;
+  width:            146px;
+  padding:          2px 0 4px 0;
+  margin:           0 0 0 0;
+  list-style:       none;
+  background-color: #EEE;
+  border:           solid 1px #FFF;
+}
+
+div.menu ul ul li {
+  float:            left;
+  width:            140px;
+  font:             10px Verdana, Arial, Sans-serif;
+  color:            #333;
+  
+}
+
+div.menu ul ul li a {
+  float:            left;
+  display:          block;
+  width:            130px;
+  color:            #45769B;
+  text-decoration:  none;
+  padding:          4px 8px 4px 8px;
+}
+
+div.menu ul ul li a.dis {
+  color:            #AAA;
+  cursor:           pointer;
+}
+
+div.menu ul ul li a:hover {
+  color:            #333;
+}
+
+div.menu ul ul li a.dis:hover {
+  color:            #AAA;
+}
+
+div.data {
+  float:            left;
+  width:            590px;
+  padding:          10px 26px 0 26px;
+}
+
+div.extra {
+  float:            left;
+  width:            188px;
+  padding:          10px 0 0 0;
+}
+
+div.slidingdoors {
+  float:            left;
+  border-bottom:    solid 4px #d0add6;
+  background-color: #FFF;
+  width:            574px;
+  margin:           0 6px 12px 6px;
+  padding:          0 2px 0 2px;
+}
+
+div.slidingdoors .door {
+  float:            left;
+  padding:          6px 5px 6px 5px;
+  border-top:       solid 1px #d0add6;
+  border-right:     solid 1px #d0add6;
+  border-left:      solid 1px #d0add6;
+  background-color: #f6e9f8;
+  cursor:           pointer;
+  margin-right:     1px;
+  color:            #ac94b0;
+}
+
+div.slidingdoors .open {
+  background-color: #d0add6;
+  color:            #693273;
+  font-weight:      bold;
+}
+
+div.interlock {
+  float:            left;
+  width:            100%;
+}
+
+div.datablock {
+  float:            left;
+  border:           solid 1px #ccc;
+  background-color: #FFF;
+}
+
+div.datablock .legend {
+  float:            left;
+  width:            566px;
+  background-color: #ccc;
+  color:            #787878;
+  padding:          4px 4px 4px 4px;
+  border:           solid 1px #FFF;
+  font-weight:      bold;
+  font-size:        10px;
+  font-family:      arial;
+}
+
+div.datablock .itextedit {
+  float:            left;
+  width:            554px;
+  padding:          3px 10px 3px 10px;
+  margin:           0 1px 1px 1px;
+  text-align:       right;
+  background-color: #DDD;
+}
+
+div.datablock .itext {
+  float:            left;
+  width:            554px;
+  padding:          10px 10px 0 10px;
+  margin:           0 1px 1px 1px;
+  background-color: #EEE;
+}
+
+div.datablock .itext p {
+  font:             12px Arial;
+  color:            #666;
+  margin:           0 0 10px 0;
+  padding:          0;
+}
+
+div.datablock .itext p strong {
+  color:            #333;
+}
+
+div.datablock .textblock {
+  width:            456px;
+  padding:          40px 60px 40px 60px;
+}
+
+div.datablock .textblock p {
+  font:             12px Verdana;
+  margin:           0 0 12px 0;
+  padding:          0;
+}
+
+div.datablock .textblock h2 {
+  font:             bold 14px Arial;
+  color:            #666;
+  padding:          0;
+  margin:           0;
+}
+
+div.square {
+  width:            281px;
+  margin:           0 6px 12px 6px;
+  overflow:         hidden;
+}
+
+div.rect {
+  width:            576px;
+  margin:           0 6px 12px 6px;
+  overflow:         hidden;
+}
+
+div.morepadding {
+  padding:          0 0 5px 0;
+}
+
+div.rect .textmess {
+  padding:          20px; 
+  text-align:       center; 
+  float:            left; 
+  width:            536px;
+}
+
+div.rect .textmess_no {
+  padding:          0; 
+  text-align:       center; 
+  float:            left; 
+  width:            536px;
+  font-size:        0;
+  display:          none;
+}
+
+div.rect .titelbox {
+  float:            left;
+  margin:           3px 3px 3px 3px;
+  width:            570px;
+}
+
+div.rect .titelbox .legend {
+  float:            left;
+  width:            568px;
+  background-color: #DDD;
+  text-align:       right;
+  padding:          3px 0 3px 0; 
+  border-top:       solid 1px #CCC;
+  border-left:      solid 1px #CCC;
+  border-right:     solid 1px #CCC;
+  border-bottom:    solid 0px #FFF;
+}
+
+div.rect .titelbox .frame {
+  float:            left;
+  width:            568px;
+  border-top:       solid 0px #FFF;
+  border-left:      solid 1px #CCC;
+  border-right:     solid 1px #CCC;
+  border-bottom:    solid 1px #CCC;
+  background-color: #EEE;
+  overflow:         hidden;
+  padding-bottom:   2px;
+}
+
+div.rect .titelbox .legend .iDelete {
+  float:            left; 
+  padding:          0 0 0 3px;
+}
+
+div.rect .titelbox .legend .iText {
+  float:            right; 
+  padding:          3px 0 0 0; 
+  color:            #000;
+}
+
+div.rect .titelbox .legend .iRadio {
+  float:            right; 
+  padding:          2px 3px 0 3px;
+}
+
+div.rect .titelbox .boxart_holder {
+  float:            left;
+  width:            564px;
+  padding:          2px;
+  border-top:       solid 1px #CCC;
+  border-bottom:    solid 1px #CCC;
+  background-color: #FFF;
+}
+
+div.rect .titelbox .boxart {
+  float:            left;
+  width:            137px;
+  border:           solid 1px #CCC;
+  margin:           0 1px 0 1px;
+  background-color: #FFF;
+  overflow:         hidden;   
+}
+
+div.rect .titelbox .boxart .upload {
+  float:            left;
+  width:            133px;
+  padding:          2px;
+  overflow:         hidden;
+  background-color: #EEE;
+}
+
+div.rect .titelbox .boxart .pic {
+  float:            left;
+  width:            59px;
+  height:           58px;
+  overflow:         hidden;
+}
+
+div.rect .titelbox .boxart .pic img {
+  float:            left;
+  width:            57px;
+  height:           57px;
+  margin:           1px;
+}
+
+div.rect .titelbox .boxart .controls {
+  float:            left;
+  width:            72px;
+  height:           55px;
+  padding:          2px;
+  overflow:         hidden;
+  background-color: #EEE;
+  border-left:      solid 1px #CCC;
+}
+
+div.rect .titelbox .boxart .controls input {
+  float:            right;
+  width:            71px;
+  padding:          1px;
+  font:             10px Arial;
+  margin:           3px 0 3px 0;
+}
+
+div.rect .titelbox .boxart .titel {
+  float:            left;
+  width:            133px;
+  text-align:       center;
+  color:            #AAA;
+  background-color: #DDD;
+  border-top:       solid 1px #CCC;
+  padding:          2px;
+}
+
+div.rect .imgblock {
+  float:            left; 
+  width:            576px;
+  border-bottom:    solid 1px #e4cde8;
+}
+
+div.rect .imgblock .image {
+  float:            left;
+  padding:          5px;
+  width:            80px;
+  height:           80px;
+}
+
+div.rect .imgblock .image img {
+  float:            left;
+  width:            80px;
+  height:           80px;
+  border:           none;
+}
+
+div.rect .imgblock .fields {
+  float:            left;
+  width:            384px;
+  height:           80px;
+  padding:          5px;
+  border-left:      solid 1px #f0daf3;
+  border-right:     solid 1px #f0daf3;
+}
+
+div.rect .imgblock .fields .text {
+  float:            left;
+  width:            80px;
+}
+
+div.rect .imgblock .fields .input {
+  float:            left;
+  width:            304px;
+}
+
+div.rect .imgblock .fields .input input {
+}
+
+div.rect .imgblock .fields .input textarea {
+  width:            300px;
+  height:           55px;
+  font:             10px Verdana;
+}
+  
+div.rect .imgblock .buttons {
+  float:            left;
+  width:            80px;
+  height:           54px;
+  padding:          18px 5px 18px 5px;
+}
+
+div.datablock .in_row {
+  float:            left;
+  width:            576px;
+}
+
+div.datablock .in_line {
+  float:            left;
+  font-size:        0;
+  height:           1px;
+  background-color: #DDD;
+  margin:           5px 5px 5px 5px;
+  width:            566px;
+}
+
+div.datablock .in_text {
+  float:            left;
+  margin:           2px 5px 0 5px;
+  padding:          0 0 0 130px;
+  width:            436px;
+}
+
+div.datablock .in_text p {
+  font:             10px Arial;  
+  color:            #888;
+  padding:          0;
+  margin:           0;
+}
+
+div.datablock .in_row .text {
+  float:            left;
+  width:            122px;
+  padding:          7px 4px 7px 4px;
+  font-weight:      bold;
+  min-height:       14px;
+}
+
+div.datablock .in_row .input {
+  float:            left;
+  width:            438px;
+  padding:          4px 4px 4px 4px;
+}
+
+div.datablock .in_row .input .radiofld {
+  float:            left;
+  padding:          3px;
+  margin:           1px;
+  width:            31px;
+  overflow:         hidden;
+  background-color: #CCC;
+  text-align:       center;
+  font:             10px Arial;
+  cursor:           pointer;
+}
+
+div.datablock .in_row .input .radiofld input {
+  display:          block;
+  padding:          0;
+  margin:           0 auto 2px auto;
+}
+
+div.datablock .in_row .input .browse {
+  width:            348px;
+  padding:          4px;
+  border:           solid 1px #90b0c6;
+}
+
+div.datablock .in_row .input .browsebutton {
+  float:            right;
+  width:            80px;
+  height:           22px;
+  font-weight:      bold;
+}
+
+div.datablock .in_row .input input.fill {
+  width:            426px;
+  padding:          4px;
+  border:           solid 1px #CCC;
+}
+
+div.datablock .in_row .input .notnull {
+  background-color: #efe8ae;
+  color:            #396288;
+}
+
+div.datablock .in_row .input select {
+  width:            437px;
+  height:           20px;
+  padding:          3px;
+  border:           solid 1px #CCC;
+  background-color: #FFF;
+}
+
+div.datablock .in_row .input select option {
+  padding:          2px;
+}
+
+div.datablock .in_row .texttools {
+  float:            left;
+  width:            562px;
+  margin:           5px 4px 0 4px;
+  border-top:       solid 1px #CCC;
+  border-left:      solid 1px #CCC;
+  border-right:     solid 1px #CCC;
+  padding:          2px;
+  background-color: #DDD;
+}
+
+div.datablock .in_row .texttools .sep {
+  float:            left;
+  font-size:        0;
+  width:            1px;
+  height:           18px;
+  background-color: #b78ebd;
+  margin:           2px 3px 2px 3px;
+}
+
+div.datablock .in_row .texttools select {
+  float:            left;
+  font:             10px Arial, Sans-Serif;
+  margin:           2px 2px 0 2px;
+}
+
+div.datablock .in_row .texttools img {
+  float:            left;
+  margin:           1px;
+  padding:          0;
+}
+
+div.datablock .in_row .texttools img:hover {
+  margin:           0;
+  border:           solid 1px #6b8da1;
+  background-color: #9bb7c8;
+}
+
+div.datablock .in_row textarea {
+  font:             12px Verdana, Sans-serif;
+  margin:           0 4px 6px 4px;
+  padding:          4px;
+  width:            558px;
+  height:           600px;
+  border:           solid 1px #CCC;
+  background-color: #FFF;
+  line-height:      18px;
+}
+
+div.datablock .in_row .input textarea {
+  font:             10px Arial;
+  color:            #666;
+  margin:           0;
+  padding:          4px;
+  width:            423px;
+  height:           60px;
+  border:           solid 1px #CCC;
+  background-color: #FFF;
+}
+
+div.datablock .in_row .twopart {
+  float:            left; 
+  font-weight:      bold; 
+  width:            276px; 
+  margin:           0 4px 0 4px; 
+  padding:          2px;
+}
+
+div.datablock .in_row .chklist_outer {
+  float:            left;
+  width:            276px;
+  border:           solid 1px #e4cde8; 
+  padding:          1px;
+  margin:           0 4px 0 4px;
+}
+
+div.datablock .in_row .chklist_outer .chklist {
+  float:            left; 
+  width:            276px;
+  height:           160px;  
+  overflow:         auto;
+  background-color: #FFF;
+}
+
+div.datablock .in_row .chklist_outer .chklist .row {
+  float:            left; 
+  width:            256px;
+  padding:          4px 0 4px 0;
+  background-color: #FFF;
+  border-bottom:    solid 1px #EEE;
+  overflow:         hidden;
+}
+
+div.datablock .in_row .chklist_outer .chklist .row .chk {
+  float:            left;
+  height:           13px;
+  padding:          2px;
+}
+
+div.datablock .in_row .chklist_outer .chklist .row .lbl {
+  float:            left;
+  font:             10px Verdana;
+  cursor:           pointer;
+  height:           13px;
+  padding:          2px 0 2px 5px;
+  overflow:         hidden;
+}
+
+div.datablock .in_row .chklist_outer .chklist .row .chk input {
+  float:            left;
+  padding:          0;
+  margin:           0 0 0 5px;
+}
+
+div.datablock p {
+  margin:           2px 5px 10px 5px;
+  font:             10px Verdana, Arial, Sans-serif;
+}
+
+div.datablock .editbar {
+  float:            left;
+  width:            562px;
+  padding:          6px 6px 6px 6px;
+  border:           solid 1px #FFF;
+  border-top:       solid 0px #FFF;
+  background-color: #DDD;
+  color:            #b58fbb;
+}
+
+div.datablock .alfalist {
+  float:            left;
+  width:            562px;
+  padding:          6px 6px 6px 6px;
+  border:           solid 1px #FFF;
+  border-top:       solid 0px #FFF;
+  text-align:       center;
+  background-color: #EAEAEA;
+  color:            #CCC;
+  font:             12px Arial;
+}
+
+div.datablock .alfalist a {
+  text-decoration:  none;
+  color:            #00A;
+}
+
+div.datablock .alfalist a.sel {
+  font-weight:      bold;
+}
+
+div.datablock .alfalist a:hover {
+  text-decoration:  underline;
+  color:            #00A;
+}
+
+div.datablock .datalist {
+  float:            left;
+  width:            576px;
+  padding:          8px 0 8px 0;
+  background-color: #FFF;
+}
+
+div.datablock .datalist p.err {
+  text-align:       center;
+  padding:          15px 0 10px 0;
+  color:            #666;
+}
+
+div.datablock .pagebar {
+  float:            left;
+  width:            562px;
+  padding:          6px 6px 6px 6px;
+  border:           solid 1px #FFF;
+  background-color: #DDD;
+  text-align:       center;
+  font:             12px Arial, Sans-Serif;
+  color:            #AAA;
+}
+
+div.datablock .pagebar a {
+  color:            #00A;
+  text-decoration:  none;
+}
+
+div.datablock .pagebar a:hover {
+  text-decoration:  underline;
+}
+
+div.datablock .list {
+  float:            left;
+  list-style:       none;
+  width:            576px;
+  padding:          0;
+  margin:           0;
+}
+
+div.extra .info .inner .save {
+  font:             bold 12px Verdana;
+  width:            174px;
+  height:           35px;
+  margin:           2px 0 2px 0;
+}
+
+div.extra .info .inner .save_continue {
+  font:             12px Verdana;
+  width:            174px;
+  height:           35px;
+  margin:           2px 0 2px 0;
+}
+
+div.extra .info .inner .save_return {
+  font:             12px Verdana;
+  width:            174px;
+  height:           35px;
+  margin:           2px 0 2px 0;
+}
+
+div.extra .info .inner .cancel {
+  font:             bold 12px Verdana;
+  width:            174px;
+  height:           35px;
+  margin:           2px 0 2px 0;
+  color:            #872018;
+}
+
+div.extra .databox {
+  float:            left;
+  width:            188px;
+  margin:           0 0 10px 0;
+}
+
+div.extra .separator {
+  background-color: #E7E7E7;
+  height:           1px;
+  font-size:        0;
+}
+
+div.extra .info {
+  width:            186px;
+  border:           solid 1px #CCC;
+}
+
+div.extra .info .label {
+  float:            left;
+  width:            176px;
+  padding:          4px;
+  background-color: #CCC;
+  color:            #666;
+  border-top:       solid 1px #FFF;
+  border-left:      solid 1px #FFF;
+  border-right:     solid 1px #FFF;
+}
+
+div.extra .info .inner {
+  float:            left;
+  width:            174px;
+  background-color: #EEE;
+  border:           solid 1px #FFF;
+  padding:          5px;
+  overflow:         hidden;
+}
+
+div.extra .info .inner .minimess {
+  float:            left;
+  width:            174px;
+  text-align:       center;
+  padding:          15px 0 15px 0;
+  color:            #666;
+}
+
+div.extra .info .inner .field {
+  float:            left;
+  width:            174px;
+  margin-top:       2px;
+}
+
+div.extra .info .inner .field select {
+  font:             10px Verdana;
+  width:            174px;
+}
+
+div.extra .info .inner .field select option.separator {
+  background-color: #EEE;
+  font:             4px Verdana, Arial, Sans-serif;
+}
+
+div.extra .info .inner .field select option.levelin {
+  padding-left:     10px;
+}
+
+div.extra .info .inner p {
+  padding:          0;
+  margin:           0 8px 4px 8px;
+}
+
+div.extra .info .inner .chkbox {
+  float:            left; 
+  padding:          3px 0 0 0; 
+  height:           22px;
+}
+
+div.extra .info .inner .chkbox_text {
+  float:            left; 
+  padding:          6px 0 0 4px; 
+  height:           19px;
+  width:            148px;
+}
+
+div.extra .info .inner .radio {
+  background:       transparent url('/design/icons/radio_false.png') no-repeat; 
+  height:           15px; 
+  width:            152px; 
+  float:            left; 
+  padding:          3px 0 0 22px;
+  font:             10px Arial;
+}
+
+div.extra .info .innerseparator {
+  float:            left;
+  background-color: #FFF;
+  border-top:       solid 1px #AAA;
+  height:           1px;
+  font-size:        0;
+  width:            174px;
+  margin:           8px 0 8px 0;
+}
+
+div.extra .info table.list {
+  width:            174px; 
+  font-weight:      bold;
+}
+
+div.extra .info table.list a {
+  text-decoration:  none;
+  color:            #00A;
+}
+
+div.extra .info table.list a:hover {
+  color:            #A00;
+}
+
+div.extra .info table.list .td1 {
+  height:           16px; 
+  width:            16px; 
+  text-align:       center; 
+  padding:          2px;
+}
+
+div.extra .info table.list .td2 {
+  width:            30px; 
+  height:           16px; 
+  padding:          2px;
+  text-align:       right;
+}
+
+div.extra .info table.list .td3 {
+  width:            116px; 
+  height:           16px; 
+  padding:          2px;
+  font-weight:      normal;
+}
+  
+div.datablock select {
+  font:             10px Verdana, Arial, Sans-serif;
+}
+
+div.datablock select option.levelin {
+  padding-left:     10px;
+}
+
+div.datablock select option.separator {
+  background-color: #EEE;
+  font:             4px Verdana, Arial, Sans-serif;
+}
+
+div.datablock .list li {
+  padding:          2px 5px 2px 36px;
+  font:             bold 12px Arial, Sans-serif;
+  background-color: #FFF;
+  background-repeat:no-repeat;
+  height:           28px;
+  overflow:         hidden;
+}
+
+div.datablock .list li input {
+  float:            left;
+  margin:           7px 6px 0 0;
+}
+
+div.datablock .list li.IO {
+  background-color: #F8F8F8;
+}
+
+div.datablock .list li a {
+  text-decoration:  none;
+  color:            #15455e;
+}
+
+div.datablock .list li a:hover {
+  color:            #88782f;
+}
+
+div.datablock .list li .type {
+  float:            right;
+  font:             10px Arial, Sans-serif;
+  color:            #666;
+}
+
+div.datablock .list li .author {
+  display:          block;
+  font:             10px Arial, Sans-serif;
+  color:            #BBB;
+}
+
+div.datablock .list li .status {
+  display:          block;
+  font:             10px Arial, Sans-serif;
+  color:            #AAA;
+}
+
+div.datablock .list li .category {
+  float:            right;
+  font:             10px Arial, Sans-serif;
+  padding:          7px 0 0 0;
+  color:            #666;
+}
+
+div.datablock .list li .number {
+  float:            right;
+  text-align:       center;
+  font:             10px Arial, Sans-serif;
+  padding:          1px 0 0 0;
+  color:            #BBB;
+}
+
+div.datablock .list li .number strong {
+  font:             bold 10px Verdana;
+  color:            #666;
+}
+
+div.datablock .list li .miniimage {
+  float:            right;
+  padding:          0;
+  width:            28px;
+  height:           28px;
+  background-repeat: no-repeat;
+  background-position: right; 
+  background-color: #FFF;
+}
+
+form fieldset {
+  border:           solid 1px #CCC;
+  padding:          20px 5px 20px 5px;
+  background:       url('/design/formbg.png') no-repeat right bottom;
+}
+
+form fieldset.mess {
+  background-image: none; 
+  background-color: #EEE; 
+  border:           solid 1px #d2d2d2; 
+  border-top:       solid 0px #FFF;
+  padding:          5px 5px 5px 5px;
+  text-align:       center;
+}
+
+form fieldset.low_warning {
+  background-image: none; 
+  background-color: #EEE; 
+  border:           solid 1px #d2d2d2; 
+  border-top:       solid 0px #FFF;
+}
+
+form fieldset.warning {
+  background-image: none; 
+  background-color: #f5bfc4; 
+  border:           solid 1px #e6a5ab; 
+  border-top:       solid 0px #FFF;
+}
+
+form fieldset legend {
+  font-weight:      bold;
+  background-color: #EEE;
+  padding:          2px 5px 2px 5px;
+  border:           solid 1px #CCC;
+}
+
+form fieldset .message {
+  float:            left;
+  width:            100%;
+  text-align:       center;
+  margin:           0 0 10px 0;
+  color:            #a5341a;
+  font-weight:      bold;
+}
+
+form fieldset .button {
+  float:            left;
+  width:            100%;
+  text-align:       center;
+  margin:           5px 0 5px 0;
+}
+
+form fieldset .row {
+  float:            left;
+  width:            100%;
+  margin:           5px 0 5px 0;
+}
+
+form fieldset .row div {
+  float:            left;
+  width:            100px;
+  text-align:       right;
+  padding:          2px 4px 2px 4px;
+}
